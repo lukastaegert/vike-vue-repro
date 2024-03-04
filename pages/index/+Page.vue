@@ -10,3 +10,12 @@
 <script lang="ts" setup>
 import Counter from './Counter.vue'
 </script>
+
+<style lang="scss">
+@import '../_styles.scss';
+
+h1 {
+  @include foo();
+}
+</style>
+```
